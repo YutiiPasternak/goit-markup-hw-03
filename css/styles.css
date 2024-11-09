@@ -293,6 +293,9 @@ body {
   flex-wrap: wrap;
 }
 .portfolio-item {
+}
+
+.portfolio-img {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-product {
