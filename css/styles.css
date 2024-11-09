@@ -11,6 +11,12 @@ li {
   list-style-type: none;
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* #region base */
 body {
   font-family: "Roboto", sans-serif;
@@ -297,7 +303,6 @@ body {
 }
 
 .portfolio-img {
-  width: calc((100% - 48px) / 3);
   display: block;
 }
 
