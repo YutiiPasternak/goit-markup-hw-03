@@ -197,7 +197,7 @@ body {
 }
 
 .target-itm {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .target-desc {
   font-weight: 500;
