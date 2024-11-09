@@ -194,10 +194,10 @@ body {
 .target-list {
   display: flex;
   gap: 24px;
-  width: calc((100 % - 72px) / 4);
 }
 
 .target-itm {
+  width: calc((100% - 3 * 24px) / 4);
 }
 .target-desc {
   font-weight: 500;
