@@ -28,8 +28,11 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.header-container container {
   display: flex;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-nav {
@@ -45,6 +48,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
+  margin-left: 156px;
 }
 
 .header-logo:hover,
@@ -68,6 +73,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .nav-itm:hover {
   color: #404bbf;
@@ -83,12 +89,10 @@ body {
   font-size: 16px;
   color: #434455;
   display: inline-flex;
-  margin-left: auto;
   gap: 40px;
 }
 
 .contacts-itm {
-  display: inline-flex;
 }
 
 .contact-link {
@@ -98,7 +102,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  display: inline-flex;
 }
 .contact-link:hover,
 :focus {
