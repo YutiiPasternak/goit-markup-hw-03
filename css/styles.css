@@ -34,6 +34,8 @@ body {
   height: 72px;
 }
 .container {
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .header-nav {
@@ -81,7 +83,7 @@ body {
 
 .contacts {
   font-style: normal;
-  margin-left: 332px;
+  margin-left: auto;
 }
 
 .contacts-list {
