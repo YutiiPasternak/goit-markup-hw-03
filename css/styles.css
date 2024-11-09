@@ -328,11 +328,17 @@ body {
 /* #region footer */
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-container {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  display: inline-block;
+  margin-bottom: 16px;
 
   /* line-height: 21px; */
   line-height: 117%;
@@ -349,6 +355,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /* #endregion */
