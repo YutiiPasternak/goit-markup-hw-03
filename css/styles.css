@@ -203,7 +203,7 @@ body {
 }
 
 .target-itm {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .target-desc {
   font-weight: 500;
@@ -246,8 +246,6 @@ body {
 .gallery-item {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
-  width: 100%;
-  height: auto;
   border-radius: 0px 0px 4px 4px;
 }
 
