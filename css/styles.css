@@ -120,7 +120,7 @@ body {
   background: #2e2f42;
   width: 1440px;
   height: 600px;
-  padding-top: 188px;
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -160,8 +160,16 @@ body {
 /* #endregion */
 
 /* #region section */
+.target {
+  padding: 120px 0;
+}
 
-.subtitle {
+.target-container {
+  width: 1128px;
+  display: flex;
+}
+
+.target-subtitle {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
@@ -169,11 +177,29 @@ body {
   font-weight: 700;
   font-size: 36px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-.list {
-  background: #fff;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-.desc {
+
+.target-list {
+  display: flex;
+  gap: 24px;
+}
+
+.target-itm {
+  width: calc((100% - 72px) / 4);
+}
+.target-desc {
   font-weight: 500;
   font-size: 20px;
 
@@ -181,8 +207,9 @@ body {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
-.text {
+.target-text {
   font-weight: 400;
   /* line-height: 24px; */
   line-height: 150%;
