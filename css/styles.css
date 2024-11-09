@@ -159,7 +159,7 @@ body {
 }
 /* #endregion */
 
-/* #region section */
+/* #region section target */
 .target {
   padding: 120px 0;
 }
@@ -194,10 +194,10 @@ body {
 .target-list {
   display: flex;
   gap: 24px;
+  width: calc((100 % - 72px) / 4);
 }
 
 .target-itm {
-  width: calc((100% - 3 * 24px) / 4);
 }
 .target-desc {
   font-weight: 500;
@@ -221,6 +221,7 @@ body {
 /* #region gallery */
 .gallery {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 .gallery-tagline {
   line-height: 111%;
@@ -230,11 +231,22 @@ body {
   font-weight: 700;
   font-size: 36px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .gallery-list {
+  display: flex;
+  gap: 24px;
 }
 .gallery-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  width: 100%;
+  height: auto;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container-item-text {
+  padding: 32px 0;
 }
 .team-name {
   font-weight: 500;
@@ -245,6 +257,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .gallery-text {
   line-height: 150%;
