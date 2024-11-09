@@ -122,6 +122,12 @@ body {
   height: 600px;
 }
 
+.hero-container {
+}
+
+.container {
+}
+
 .hero-title {
   line-height: 107%;
   letter-spacing: 0.02em;
@@ -130,6 +136,8 @@ body {
   font-weight: 700;
   font-size: 56px;
   margin: 0;
+  padding: 188px 0;
+  max-width: 496px;
 }
 .hero-button {
   line-height: 150%;
@@ -137,6 +145,12 @@ body {
   color: #fff;
   font-weight: 500;
   background-color: #4d5ae5;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
